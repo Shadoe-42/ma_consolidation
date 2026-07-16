@@ -121,8 +121,9 @@
   <text x="1155" y="356" font-size="9" fill="#2f6b45">wins where they disagree</text>
 
   <rect x="893" y="392" width="462" height="58" rx="6" fill="#f4f0fb" stroke="#7a5fb0" stroke-width="1.5"/>
-  <text x="1124" y="414" text-anchor="middle" font-size="10" font-weight="700" fill="#3d2c5c">One Snowflake platform, GLBA Safeguards Rule intact</text>
-  <text x="1124" y="432" text-anchor="middle" font-size="9" fill="#5c4a80">Encryption in transit/at rest, qualified individual, 30-day FTC breach notice — merged, not diluted</text>
+  <text x="1124" y="410" text-anchor="middle" font-size="10" font-weight="700" fill="#3d2c5c">One Snowflake platform, Interagency Guidelines intact</text>
+  <text x="1124" y="425" text-anchor="middle" font-size="9" fill="#5c4a80">Encryption in transit/at rest, merged security program,</text>
+  <text x="1124" y="438" text-anchor="middle" font-size="9" fill="#5c4a80">36-hour regulator notice (not the FTC's 30-day rule) — merged, not diluted</text>
 
   <!-- Arrows -->
   <line x1="360" y1="300" x2="375" y2="300" stroke="#5b6472" stroke-width="2" marker-end="url(#arrowMA)"/>

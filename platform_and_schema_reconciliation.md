@@ -65,16 +65,17 @@ SELECT
     f.customer_id  AS fieldstone_id,
     c.full_name,
     f.full_name,
-    JAROWINKLER_SIMILARITY(c.full_name, f.full_name) AS name_similarity,
-    EDITDISTANCE(c.ssn_last4, f.ssn_last4) AS ssn_tail_distance
+    JAROWINKLER_SIMILARITY(c.full_name, f.full_name) AS name_similarity
 FROM RAW.CASCADE_CUSTOMERS c
 JOIN RAW.FIELDSTONE_CUSTOMERS f
     ON JAROWINKLER_SIMILARITY(c.full_name, f.full_name) > 85
     AND c.date_of_birth = f.date_of_birth
-WHERE EDITDISTANCE(c.ssn_last4, f.ssn_last4, 1) <= 1;
+    AND c.ssn_last4 = f.ssn_last4;  -- exact match or disqualify, never fuzzy
 ```
 
-This produces candidate matches, not confirmed ones — a similarity score above a threshold is a worklist for review, not an automatic merge. Two customers who happen to share a birthdate and a similar name are a false positive a fully automated pipeline would silently get wrong, and a wrongly-merged customer record at a bank is a materially worse outcome than a wrongly-merged record almost anywhere else in this portfolio, given the direct tie to account access and financial data. High-confidence matches can merge automatically; everything else routes to manual review before the two records become one.
+Fuzziness belongs on the name, not on the SSN fragment — a name has legitimate reasons to vary between two records (a maiden name, a middle initial, a spelling variant), an SSN digit doesn't. Tolerating an edit-distance-1 difference on `ssn_last4` would treat two different people's identifiers as a near-match on the one field that's supposed to be the most discriminating signal available, which is backwards: it should exact-match-or-disqualify, full stop, while name and birthdate carry the actual fuzziness.
+
+This produces candidate matches, not confirmed ones — a similarity score above a threshold is a worklist for review, not an automatic merge. Two customers who happen to share a birthdate, a similar name, and the same SSN tail are a real candidate, not a certainty, and a wrongly-merged customer record at a bank is a materially worse outcome than a wrongly-merged record almost anywhere else in this portfolio, given the direct tie to account access and financial data. High-confidence matches can merge automatically; everything else routes to manual review before the two records become one.
 
 ---
 
