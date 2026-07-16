@@ -1,0 +1,137 @@
+<svg viewBox="0 0 1400 590" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowMA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5b6472"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="590" fill="#ffffff"/>
+
+  <text x="700" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1a2330">Deal-Phase Timeline — Cascade Regional Bank + Fieldstone Bank</text>
+  <text x="700" y="55" text-anchor="middle" font-size="12.5" fill="#5b6472">What's technically possible is governed entirely by what's legally permitted on a given day</text>
+
+  <!-- Phase headers -->
+  <rect x="30" y="85" width="330" height="36" rx="6" fill="#c0392b"/>
+  <text x="195" y="108" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">Pre-Close</text>
+
+  <rect x="375" y="85" width="140" height="36" rx="6" fill="#1a2330"/>
+  <text x="445" y="108" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">Close</text>
+
+  <rect x="530" y="85" width="330" height="36" rx="6" fill="#d98c2b"/>
+  <text x="695" y="108" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">Day 1</text>
+
+  <rect x="875" y="85" width="495" height="36" rx="6" fill="#2f8f52"/>
+  <text x="1122" y="108" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">Day 2+</text>
+
+  <!-- Pre-Close column -->
+  <rect x="30" y="135" width="330" height="330" rx="10" fill="#fdf2f2" stroke="#c0392b" stroke-width="1.5"/>
+
+  <rect x="48" y="152" width="140" height="90" rx="6" fill="#ffffff" stroke="#c0392b"/>
+  <text x="118" y="172" text-anchor="middle" font-size="10" font-weight="700" fill="#7a2018">Cascade</text>
+  <text x="118" y="188" text-anchor="middle" font-size="9" fill="#7a2018">Oracle core</text>
+  <text x="118" y="202" text-anchor="middle" font-size="9" fill="#7a2018">banking —</text>
+  <text x="118" y="216" text-anchor="middle" font-size="9" fill="#7a2018">fully separate</text>
+  <text x="118" y="230" text-anchor="middle" font-size="9" fill="#7a2018">operator</text>
+
+  <rect x="192" y="152" width="140" height="90" rx="6" fill="#ffffff" stroke="#c0392b"/>
+  <text x="262" y="172" text-anchor="middle" font-size="10" font-weight="700" fill="#7a2018">Fieldstone</text>
+  <text x="262" y="188" text-anchor="middle" font-size="9" fill="#7a2018">SQL Server core</text>
+  <text x="262" y="202" text-anchor="middle" font-size="9" fill="#7a2018">banking —</text>
+  <text x="262" y="216" text-anchor="middle" font-size="9" fill="#7a2018">fully separate</text>
+  <text x="262" y="230" text-anchor="middle" font-size="9" fill="#7a2018">operator</text>
+
+  <rect x="48" y="256" width="284" height="90" rx="6" fill="#fff4e8" stroke="#d98c2b" stroke-width="1.5"/>
+  <text x="190" y="276" text-anchor="middle" font-size="10.5" font-weight="700" fill="#8a5316">Clean Team / Clean Room</text>
+  <text x="65" y="296" font-size="9" fill="#8a5316">Small designated team, no pricing/</text>
+  <text x="65" y="310" font-size="9" fill="#8a5316">competitive-strategy staff. Aggregated,</text>
+  <text x="65" y="324" font-size="9" fill="#8a5316">anonymized readiness data only —</text>
+  <text x="65" y="338" font-size="9" fill="#8a5316">scoping, not migration.</text>
+
+  <rect x="48" y="360" width="284" height="90" rx="6" fill="#ffffff" stroke="#c0392b"/>
+  <text x="190" y="382" text-anchor="middle" font-size="10" font-weight="700" fill="#7a2018">HSR Act — hard boundary</text>
+  <text x="65" y="402" font-size="9" fill="#7a2018">No combined operations, no shared</text>
+  <text x="65" y="416" font-size="9" fill="#7a2018">customer data, no directing the other's</text>
+  <text x="65" y="430" font-size="9" fill="#7a2018">business — penalties run well past</text>
+  <text x="65" y="444" font-size="9" fill="#7a2018">$1M for violations.</text>
+
+  <!-- Close gate -->
+  <rect x="375" y="135" width="140" height="330" rx="10" fill="#f2f2f2" stroke="#1a2330" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="445" y="220" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1a2330">Legal</text>
+  <text x="445" y="236" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1a2330">close</text>
+  <text x="395" y="270" font-size="9" fill="#3a4250">HSR separation</text>
+  <text x="395" y="284" font-size="9" fill="#3a4250">requirement ends.</text>
+  <text x="395" y="304" font-size="9" fill="#3a4250">Regulator approval</text>
+  <text x="395" y="318" font-size="9" fill="#3a4250">(OCC / Fed / FDIC)</text>
+  <text x="395" y="332" font-size="9" fill="#3a4250">already secured.</text>
+  <text x="395" y="356" font-size="9" font-weight="600" fill="#1a2330">Legal permission</text>
+  <text x="395" y="370" font-size="9" font-weight="600" fill="#1a2330">changes instantly.</text>
+  <text x="395" y="384" font-size="9" font-weight="600" fill="#1a2330">Technical readiness</text>
+  <text x="395" y="398" font-size="9" font-weight="600" fill="#1a2330">does not.</text>
+
+  <!-- Day 1 column -->
+  <rect x="530" y="135" width="330" height="330" rx="10" fill="#fff4e8" stroke="#d98c2b" stroke-width="1.5"/>
+  <text x="695" y="160" text-anchor="middle" font-size="10.5" font-weight="700" fill="#8a5316">Customer-facing continuity only</text>
+
+  <rect x="548" y="176" width="284" height="66" rx="6" fill="#ffffff" stroke="#d98c2b"/>
+  <text x="690" y="196" text-anchor="middle" font-size="9.5" fill="#8a5316">Both banks' systems still run largely</text>
+  <text x="690" y="211" text-anchor="middle" font-size="9.5" fill="#8a5316">in parallel — bridged only where</text>
+  <text x="690" y="226" text-anchor="middle" font-size="9.5" fill="#8a5316">customer access absolutely requires it</text>
+
+  <rect x="548" y="252" width="284" height="66" rx="6" fill="#ffffff" stroke="#d98c2b"/>
+  <text x="690" y="272" text-anchor="middle" font-size="9.5" fill="#8a5316">No blanket cross-bank access grant —</text>
+  <text x="690" y="287" text-anchor="middle" font-size="9.5" fill="#8a5316">the anti-pattern identity_and_access_</text>
+  <text x="690" y="302" text-anchor="middle" font-size="9.5" fill="#8a5316">consolidation.md argues against</text>
+
+  <rect x="548" y="328" width="284" height="122" rx="6" fill="#ffffff" stroke="#d98c2b"/>
+  <text x="690" y="350" text-anchor="middle" font-size="10" font-weight="700" fill="#8a5316">Regulator-approved plan</text>
+  <text x="565" y="370" font-size="9" fill="#8a5316">Merger approval expected a credible</text>
+  <text x="565" y="384" font-size="9" fill="#8a5316">integration plan, not just Day 1</text>
+  <text x="565" y="398" font-size="9" fill="#8a5316">stability — rushing full consolidation</text>
+  <text x="565" y="412" font-size="9" fill="#8a5316">to hit this deadline risks the exact</text>
+  <text x="565" y="426" font-size="9" fill="#8a5316">outage regulators are watching for</text>
+
+  <!-- Day 2+ column -->
+  <rect x="875" y="135" width="495" height="330" rx="10" fill="#e8f6ec" stroke="#2f8f52" stroke-width="1.5"/>
+  <text x="1122" y="160" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1d5c34">Full consolidation — deliberate, not rushed</text>
+
+  <rect x="893" y="176" width="230" height="100" rx="6" fill="#ffffff" stroke="#2f8f52"/>
+  <text x="1008" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="#1d5c34">Schema crosswalk</text>
+  <text x="908" y="216" font-size="9" fill="#2f6b45">"Checking account" = "DDA".</text>
+  <text x="908" y="230" font-size="9" fill="#2f6b45">Governed, attributed mapping</text>
+  <text x="908" y="244" font-size="9" fill="#2f6b45">table — not a spreadsheet</text>
+  <text x="908" y="258" font-size="9" fill="#2f6b45">someone forgets to update</text>
+
+  <rect x="1140" y="176" width="215" height="100" rx="6" fill="#ffffff" stroke="#2f8f52"/>
+  <text x="1247" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="#1d5c34">Entity resolution</text>
+  <text x="1155" y="216" font-size="9" fill="#2f6b45">JAROWINKLER_SIMILARITY +</text>
+  <text x="1155" y="230" font-size="9" fill="#2f6b45">EDITDISTANCE find candidates;</text>
+  <text x="1155" y="244" font-size="9" fill="#2f6b45">high-confidence auto-merges,</text>
+  <text x="1155" y="258" font-size="9" fill="#2f6b45">the rest go to manual review</text>
+
+  <rect x="893" y="288" width="230" height="90" rx="6" fill="#ffffff" stroke="#2f8f52"/>
+  <text x="1008" y="308" text-anchor="middle" font-size="10" font-weight="700" fill="#1d5c34">Role crosswalk + SSO</text>
+  <text x="908" y="328" font-size="9" fill="#2f6b45">Two AD forests, one unified</text>
+  <text x="908" y="342" font-size="9" fill="#2f6b45">role model — restrictive side</text>
+  <text x="908" y="356" font-size="9" fill="#2f6b45">wins on conflicts by default</text>
+
+  <rect x="1140" y="288" width="215" height="90" rx="6" fill="#ffffff" stroke="#2f8f52"/>
+  <text x="1247" y="308" text-anchor="middle" font-size="10" font-weight="700" fill="#1d5c34">Unified classification</text>
+  <text x="1155" y="328" font-size="9" fill="#2f6b45">One Snowflake platform,</text>
+  <text x="1155" y="342" font-size="9" fill="#2f6b45">stronger bank's standard</text>
+  <text x="1155" y="356" font-size="9" fill="#2f6b45">wins where they disagree</text>
+
+  <rect x="893" y="392" width="462" height="58" rx="6" fill="#f4f0fb" stroke="#7a5fb0" stroke-width="1.5"/>
+  <text x="1124" y="414" text-anchor="middle" font-size="10" font-weight="700" fill="#3d2c5c">One Snowflake platform, GLBA Safeguards Rule intact</text>
+  <text x="1124" y="432" text-anchor="middle" font-size="9" fill="#5c4a80">Encryption in transit/at rest, qualified individual, 30-day FTC breach notice — merged, not diluted</text>
+
+  <!-- Arrows -->
+  <line x1="360" y1="300" x2="375" y2="300" stroke="#5b6472" stroke-width="2" marker-end="url(#arrowMA)"/>
+  <line x1="515" y1="300" x2="530" y2="300" stroke="#5b6472" stroke-width="2" marker-end="url(#arrowMA)"/>
+  <line x1="860" y1="300" x2="875" y2="300" stroke="#5b6472" stroke-width="2" marker-end="url(#arrowMA)"/>
+
+  <!-- Legend -->
+  <rect x="30" y="490" width="1340" height="70" rx="8" fill="#f8f9fa" stroke="#c7ccd1"/>
+  <text x="50" y="512" font-size="10.5" font-weight="600" fill="#3a4250">Reading order: deal_phase_data_governance.md sets what's legally possible; regulatory_considerations.md is why; platform_and_schema_reconciliation.md</text>
+  <text x="50" y="529" font-size="10.5" font-weight="600" fill="#3a4250">and identity_and_access_consolidation.md are the Day 2+ execution — none of it starts before the Close gate, regardless of technical readiness.</text>
+  <text x="50" y="548" font-size="9" fill="#8a8f98">Not legal advice — deal-specific HSR timing, clean-team scope, and close conditions require actual counsel.</text>
+</svg>

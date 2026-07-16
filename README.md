@@ -13,6 +13,7 @@ As with the rest of this portfolio: real technology, fictional companies. Every 
 
 | Path | What's there |
 |---|---|
+| `deal_phase_timeline_hld.svg` / `.png` | Architecture diagram — pre-close through Day 2+, with the HSR legal boundary drawn explicitly between what's technically possible and what's legally permitted |
 | `deal_phase_data_governance.md` | The constraint that governs everything else — pre-close antitrust/clean-room restrictions on data sharing between two still-separate competitors, versus what's possible after legal close, and Day 1 readiness versus Day 2+ integration |
 | `regulatory_considerations.md` | What's genuinely different about bank data — the GLBA Safeguards Rule and banking regulator merger approval, kept proportionate rather than a full compliance crosswalk repeat |
 | `platform_and_schema_reconciliation.md` | The technical core: extracting from Cascade's Oracle and Fieldstone's SQL Server core banking systems, reconciling schemas that represent the same products differently, and resolving customers who bank at both institutions under unrelated IDs |
